@@ -1,0 +1,64 @@
+body{
+    margin-top: 0px;;
+    background-image: url(kepek/hatter.jpg);
+}
+main{
+    max-height: 80%;
+    margin-top: 0px;
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-areas:"h h h"
+                        "n a as" 
+                        "f f f" ;
+}
+header{
+    height:150px;
+    color:white;
+    text-align: center;
+    background-image: url(kepek/fejlec.jpg);
+grid-area: h;
+}
+nav{
+    margin: 10px;
+    grid-area: n;
+}
+article{
+    grid-area: a;
+}
+aside{
+    padding:20px;
+    border:1px solid gray;
+    grid-area: as;
+}
+footer{
+    
+    height: 50px;
+    text-align: center;
+    text-size-adjust: 15px;
+    background-color:rgb(27, 107, 160);
+    grid-area: f;
+}
+ul{
+    text-decoration: none;
+    background-color:rgb(27, 107, 160) ;
+}
+li a{
+color:white;
+text-decoration: none;
+}
+table{
+    height: 50px;
+    width:100%;
+    border:1px solid lightskyblue;
+}
+aside p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width:50%
+}
+tbody tr:nth-child(odd){
+    background-color:lightblue;
+}
